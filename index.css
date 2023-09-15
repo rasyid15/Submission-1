@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    margin: 10px;
+    width: 100%;
+    background-color: white;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 40px;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul li a {
+    color: black;
+    font-size: 20px;
+    transition: color 0.5s, font-weight 0.5s;
+}
+
+.navbar ul li a:hover {
+    color: orange;
+    font-weight: 500;
+}
+
+.content {
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+    gap: 50px;
+}
+
+article {
+    width: 500%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+article h1 {
+    padding-left: 50px;
+}
+
+article p {
+    padding-top: 10px;
+    padding-left: 50px;
+    text-indent: 50px;
+}
+
+aside {
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    width: 70%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 40px;
+}
+
+.card {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.title-content {
+    color: black;
+    transition: color 0.5s;
+}
+
+.card-img {
+    width: 100px;
+}
+
+.footer {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
